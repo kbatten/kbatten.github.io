@@ -1,13 +1,49 @@
-<http>
- <head></head>
-<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>custom github pages domain by kbatten</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>custom github pages domain</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/kbatten" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3>steps</h3>
+
 <ol>
-<li>go to https://github.com/kbatten
-<li>create new repo kbatten.github.io
-<li>add index.html
-<li>echo "pages.keithbatten.net" > ./CNAME
-<li>add CNAME "pages.keithbatten.net" -> "kbatten.github.io"
-<li>wait ...
+<li>go to <a href="https://github.com/kbatten">https://github.com/kbatten</a>
+</li>
+<li>create new repo kbatten.github.io</li>
+<li>add index.html</li>
+<li>add CNAME to github
+<code>
+$ echo "pages.keithbatten.net" &gt; ./CNAME
+</code>
+</li>
+<li>add CNAME "pages.keithbatten.net" -&gt; "kbatten.github.io"</li>
+<li>wait ...</li>
 </ol>
-</body>
+      </section>
+    </div>
+
+    
+  </body>
 </html>
